@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Nexus_Info_Sign-Up.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<title>Nexus Info Sign Up</title>
+</head>
+<body>
+<div class="Content">
+	<div class="Sign_Up-Box">
+		<div class="Company-Name">
+			<img id="Company-Img" src="Nexus_Info_Logo_Black_2png-qiywmjivnl9ke73u7zh62n7q48qmzl9fx6p47ghuzw.png">
+		</div>
+		<div class="Form-box">
+			<form action="Blank_login.php" method="POST">
+				<div id="FName">
+					<label for="FName">First Name</label>
+					<input type="text" name="first name" placeholder="Enter Your First Name" required>
+				</div>
+				<div id="LName">
+					<label for="LName">Last Name</label>
+					<input type="text" name="last name" placeholder="Enter Your Last Name" required>
+				</div>
+				<div id="PhoneNum">
+					<label for="PhoneNum">Phone Number</label>
+					<input type="tel" name="phone number" placeholder="(___) ___ ___" >
+				</div>
+				<div id="UsrEmail">
+					<label for="UsrEmail">Email</label>
+					<input type="email" name="User Email" placeholder="email@example.com" >
+				</div>
+				<div id="UsrName">
+					<label for="UsrName">Username</label>
+					<input type="text" name="username" placeholder="Enter Your Username" >
+				</div>
+				<div id="Pswrd">
+					<label for="Pswrd">Password</label>
+					<div id="eye_icon">
+						<input type="password" name="password" placeholder="Enter Your Password" >
+						<img src="eye-close.png">
+					</div>
+				</div>
+				<div id="CPswrd">
+					<label for="Pswrd">Confirm Password</label>
+					<input type="password" name="password" placeholder="Re-enter Your Password" >
+				</div>
+				<div id="Terms-Of-Service">
+					<input id="cb1" type="checkbox" name="TOS" required>
+					<label for="Terms-Of-Service"><p>I agree to the <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Terms of Service</a>, <a href="">Privacy Notice</a> and <a href="">Offer Details</a>.</p></label>
+				</div>
+				<div id="Sign-Up">
+					<input type="submit" name="signup" value="Sign Up">
+				</div>
+			</form>
+
+			<br>
+			<hr>
+
+
+			<p class="Alr_Acc">Already have an account?</p>
+			<div class="Already-Account">
+				<a id="Log-Out" href="Nexus-Info-Login.html"><button id="Account_BTN" href="#">Log In</button></a>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="Nexus-Info-Sign_Up.js"></script>
+</body>
+</html>
